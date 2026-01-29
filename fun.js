@@ -1,0 +1,1 @@
+(function show() { console.log("Fun.js is loaded"); })();
