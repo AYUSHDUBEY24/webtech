@@ -13,7 +13,30 @@
 // console.log(first,second,rest);
 
 
-let a=[1,2]
-let b=[3,4]
-let c = [...a,...b]//spread operator;
-console.log(c);
+// let a=[1,2]
+// let b=[3,4]
+// let c = [...a,...b]//spread operator;
+// console.log(c);
+
+
+
+// write an arrow function iseven that takes a number and return even or odd
+
+
+// let isEven = (num) => {
+//     if(num % 2 === 0){
+//         return "even";
+//     }else{
+//         return "odd";
+//     }
+// }
+// console.log(isEven(4));
+// console.log(isEven(5));
+
+
+
+// write a arrow function reversestring that returns the reverse of a string
+let reverseString = (str) => {
+    return str.split("").reverse().join("");
+}
+console.log(reverseString("hello world"));
