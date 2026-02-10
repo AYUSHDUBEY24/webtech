@@ -36,7 +36,16 @@
 
 
 // write a arrow function reversestring that returns the reverse of a string
+// let reverseString = (str) => {
+//     return str.split("").reverse().join("");
+// }
+// console.log(reverseString("hello world"));
+
+
+//take input from user and reverse it
+
+let userInput = prompt("Enter a string to reverse:");
 let reverseString = (str) => {
     return str.split("").reverse().join("");
 }
-console.log(reverseString("hello world"));
+console.log(reverseString(userInput));
